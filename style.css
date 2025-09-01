@@ -283,12 +283,15 @@
     .contact-info li.text-danger {
       color: #e84165;
     }
-    .link-style {
-      color: #e84165;
-      cursor: pointer;
-      user-select: none;
-    }
+    
     .link-style:hover {
       text-decoration: underline;
     }
-    
+    .custom-link {
+    color: #212529; 
+    text-decoration: none;
+  }
+
+  .custom-link:hover {
+    color: #dc3545 !important; 
+  }
